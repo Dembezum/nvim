@@ -1,6 +1,8 @@
 # Nvim config
 
-### Goals
+## Goals
 
-- Move from packer to Lazy
-- Make it easy to install across all devices
+- [x] Setup sourcekit-lsp
+- [ ] Move to LazyVim
+- [ ] Make portable
+- [x] Rice tf outta it

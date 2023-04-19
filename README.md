@@ -3,4 +3,4 @@
 ### Goals
 
 - Move from packer to Lazy
-- learn git
+- Make it easy to install across all devices

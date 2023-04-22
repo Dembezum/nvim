@@ -125,11 +125,6 @@ _G.packer_plugins = {
     path = "/home/gentop/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  ["gruvbox.nvim"] = {
-    loaded = true,
-    path = "/home/gentop/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
-  },
   harpoon = {
     loaded = true,
     path = "/home/gentop/.local/share/nvim/site/pack/packer/start/harpoon",

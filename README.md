@@ -5,13 +5,26 @@ seamless development experience with a focus on aesthetics, usability, and
 productivity. This setup is built using the `lazy.nvim` plugin manager to ensure
 a minimal startup time by loading plugins lazily. 
 
-> I am by no means an expert, this is just my forever evolving neovim config.
-> Learning things as i go.
+> *When cloning there might be some issues regarding the asynchronous loading of
+> plugins and configurations. This is simply because i haven't made it 100%
+> clone proof. I am by no means an expert, this is just my forever evolving
+> neovim config. Learning things as i go.*
+
+
+## Table of Contents
+
+- [Neovim Configuration](#neovim-configuration)
+- [Installation](#installation)
+- [Plugins Overview](#plugins-overview)
+- [Configuration Structure](#configuration-structure)
+- [Customizing](#customizing)
+- [Credits](#credits)
+
 
 ## Installation
 
 1. Ensure Neovim (v0.9 or newer) is installed on your system.
-2. Clone this repository into your configuration directory, usually located at `~/.config/nvim/`.
+2. Clone this repository into your configuration directory usually located at `~/.config/nvim/`.
 3. Open Neovim and the `lazy.nvim` plugin manager will automatically clone and install all the necessary plugins listed in the configuration.
 
 ## Plugins Overview

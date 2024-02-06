@@ -21,7 +21,7 @@ The configuration includes a variety of plugins to enhance the Neovim experience
 ---
 
 <details>
-<summary><b>Plugin List</b></summary>
+<summary><b>Full List of plugins here</b></summary>
 <br>
 
 - Themes

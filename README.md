@@ -10,7 +10,7 @@ a minimal startup time by loading plugins lazily.
 > clone proof. I am by no means an expert, this is just my forever evolving
 > neovim config. Learning things as i go.*
 
-[screenshot](neovim.png)
+![stack Overflow](https://github.com/Dembezum/nvim/blob/main/neovim.png)
 
 ## Table of Contents
 

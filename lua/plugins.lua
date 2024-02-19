@@ -24,6 +24,21 @@ local plugins = {
     'AlphaTechnolog/pywal.nvim',
 
     {
+        "scottmckendry/cyberdream.nvim",
+        lazy = false,
+        priority = 1000,
+        config = function()
+            require("cyberdream").setup({
+                -- Recommended - see "Configuring" below for more config options
+                transparent = false,
+                italic_comments = true,
+                hide_fillchars = true,
+                borderless_telescope = false,
+            })
+            vim.cmd("colorscheme cyberdream") -- set the colorscheme
+        end,
+    },
+    {
         'goolord/alpha-nvim',
         dependencies = { 'nvim-tree/nvim-web-devicons' },
         config = function()

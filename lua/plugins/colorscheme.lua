@@ -1,5 +1,5 @@
 vim.o.termguicolors = true
-vim.cmd('colorscheme pywal')
+vim.cmd('colorscheme cyberdream')
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
 vim.cmd("hi NvimTreeNormalNC guibg=NONE")
 vim.cmd("hi NvimTreeNormal guibg=NONE")

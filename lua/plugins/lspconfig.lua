@@ -22,6 +22,7 @@ capabilities.textDocument.completion.completionItem.resolveSupport = {
 -- disable completion with tab
 local lspconfig = require('lspconfig')
 
+-- SWIFT ---
 if vim.fn.executable('sourcekit-lsp') == 1 then
     lspconfig.sourcekit.setup {
         cmd = { "sourcekit-lsp" },
@@ -31,6 +32,17 @@ if vim.fn.executable('sourcekit-lsp') == 1 then
     }
 end
 
+--  NIX --
+if vim.fn.executable('nil') == 1 then
+    lspconfig.rnix.setup {
+        cmd = { "nil" },
+        filetypes = { "nix" },
+        on_attach = function(client, bufnr)
+        end,
+    }
+end
+
+-- C --
 local bufnr = vim.api.nvim_get_current_buf()
 local opts = { buffer = bufnr, remap = false }
 require('lspconfig').clangd.setup {

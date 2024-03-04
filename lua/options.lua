@@ -18,7 +18,7 @@ local opts = {
     undofile = true,
     updatetime = 50,
     softtabstop = 4,
-    shiftwidth = 4,
+    shiftwidth = 2,
     laststatus = 2,
     backup = false,
     wrap = false,
@@ -28,7 +28,7 @@ local opts = {
     sidescrolloff = 8,
     splitright = true,
     showmode = false,
-    cmdheight = 1,
+    cmdheight = 2,
 }
 for k, v in pairs(opts) do
     vim.opt[k] = v

@@ -21,7 +21,7 @@ local plugins = {
     'ayu-theme/ayu-vim',
     'folke/tokyonight.nvim',
     { 'Everblush/nvim', as = 'everblush' },
-    'AlphaTechnolog/pywal.nvim',
+--    'AlphaTechnolog/pywal.nvim',
 
     {
         "scottmckendry/cyberdream.nvim",

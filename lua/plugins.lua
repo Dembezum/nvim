@@ -1,4 +1,4 @@
-local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvi"
 
 -- Clone lazy.nvim if it doesn't exist
 if not vim.loop.fs_stat(lazypath) then
@@ -20,6 +20,7 @@ local plugins = {
     'ray-x/guihua.lua',
     'ayu-theme/ayu-vim',
     'folke/tokyonight.nvim',
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
     { 'Everblush/nvim', as = 'everblush' },
 --    'AlphaTechnolog/pywal.nvim',
 

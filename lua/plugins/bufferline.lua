@@ -7,9 +7,9 @@ local opts = {
         reveal = {'close'}
       },
       indicator = {
-        icon = '';
-        style = '';
-      };
+        icon = '▎', -- Set a valid icon
+        style = 'icon', -- Set a valid style (e.g., 'icon', 'underline', 'none')
+      },
       modified_icon = "●",
       buffer_close_icon = "",
       close_icon = "",
@@ -29,3 +29,4 @@ local opts = {
   }
 }
 return opts
+
